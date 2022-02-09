@@ -1,0 +1,49 @@
+.container {
+    max-width: 620px;
+    margin: auto;
+    padding: 0 12px;
+}
+
+.fullhomepage-header{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: hsl(357, 50%, 22%);
+}
+
+.sections h2{
+    color: hsl(357, 50%, 22%);
+    margin-top: 1.8rem;
+    margin-bottom: 0em;
+}
+
+.sections h2:after {
+    content: '';
+    display: block;
+    /* margin: 0 auto; */
+    width: 24px;
+    padding-top: 8px;
+    border-bottom: 4px solid #f05b56;
+    opacity: 0.6;
+}
+
+.sections p {
+    font-size: 18px;
+    line-height: 1.6em;
+    color: hsl(357, 12%, 42%);
+    font-weight: 500;
+}
+
+.sections p a{
+    color: rgb(217 85 80);
+    font-weight: bold;
+}
+
+ol, ul{
+    padding-left: 25px;
+}
+
+ol li, ul li{
+    margin: 12px 0;
+}
+
+

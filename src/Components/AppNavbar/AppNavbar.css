@@ -1,0 +1,79 @@
+.appnavbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 620px;
+    margin: auto;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.nav-logo img{
+    width: 20px;
+    margin-right: 4px;
+}
+a{
+    text-decoration: none;
+}
+
+h1{
+    margin: 0;
+}
+
+.nav-logo a{
+    color: white;
+    font-size: 20px;
+}
+
+.nav-logo h1{
+    padding: 10px 0;
+}
+
+.nav-nav{
+    display: flex;
+}
+
+.nav-btn{
+    padding: 8px 12px;
+    align-items: center;
+    background: none rgba(255, 255, 255, 0.2);
+    opacity: 0.9;
+    box-shadow: none;
+    font-size: 13px;
+    min-width: 70px;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    margin-left: 10px;
+    display: flex;
+    cursor: pointer;
+}
+
+.nav-btn:active{
+    transform: translateY(2px);
+}
+
+.nav-btn div{
+    margin-left: 4px;
+}
+
+.nav-btn img{
+    width: 16px;
+}
+
+
+
+@media screen and (max-width:768px) {
+    .nav-btn{
+        min-width: auto;
+        padding: 8px;
+    }
+
+    .nav-btn img{
+        width: 18px;
+    }
+
+    .nav-btn-text{
+        display: none;
+    }
+}
